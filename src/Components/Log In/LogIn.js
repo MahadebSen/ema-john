@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import google from "../../images/icons8-google-48.png";
 import "./LogIn.css";
 
 const LogIn = () => {
@@ -9,11 +10,11 @@ const LogIn = () => {
         <h1>Log In</h1>
         <div className="input-container">
           <div>
-            <p htmlFor="Email">Email</p>
+            <p>Email</p>
             <input type="text" />
           </div>
           <div>
-            <p htmlFor="Password">Password</p>
+            <p>Password</p>
             <input type="password" />
           </div>
         </div>
@@ -22,6 +23,9 @@ const LogIn = () => {
           New to Ema-john? <Link to="/signup">Create A New Account</Link>
         </p>
         <p className="hr">Or</p>
+        <button className="google">
+          <img src={google} alt="" /> <span>Continue with Google</span>
+        </button>
       </div>
     </div>
   );

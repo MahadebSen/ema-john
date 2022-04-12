@@ -1,21 +1,21 @@
 .container {
   border: 1px solid #95a0a7;
+  background-color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 5rem auto;
-  height: 600px;
   width: 500px;
   border-radius: 8px;
 }
 
 .container h1 {
-  font-family: Lato;
   font-size: 35px;
   font-weight: 400;
   line-height: 42px;
   letter-spacing: 0.0025em;
   text-align: center;
+  margin-top: 38px;
 }
 
 .input-container div input {
@@ -27,8 +27,6 @@
 }
 
 .input-container div p {
-  height: 20px;
-  width: 41px;
   margin-top: 20px;
   margin-bottom: 10px;
   margin-left: 5px;
@@ -83,4 +81,24 @@
   background-color: rgba(149, 160, 167, 1);
   top: 50%;
   right: 0;
+}
+
+.google {
+  width: 415px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgba(149, 160, 167, 1);
+  border-radius: 5px;
+  padding: 5px 0;
+  margin-bottom: 43px;
+}
+
+.google img {
+  width: 32px;
+  margin: 5px;
+}
+
+.google span {
+  font-size: 17px;
 }
